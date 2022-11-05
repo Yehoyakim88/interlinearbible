@@ -1,0 +1,19 @@
+.bibleText {
+    font-family: 'SBL Hebrew';
+    font-size: 32px;
+}
+
+.verse-SBL-Hebrew {
+    font-family: 'SBL Hebrew';
+    font-size: 32px;
+}
+
+.verse-Ezra-SIL {
+    font-family: 'Ezra SIL';
+    font-size: 32px;
+}
+
+.transliterated {
+    /* font-family: 'ezra_silregular'; */
+    font-family: 'Ezra SIL SR';
+}
