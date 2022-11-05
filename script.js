@@ -11,11 +11,17 @@ async function fetchBible() {
   let germanVerseAsArray;
   let germanVerseAsArrayReverse;
 
+  let genesis;
+
   let transliteration = 'wə•ḡam ʾeṯ-šab•bə•ṯōw•ṯay nā•ṯat•tiy lā•hem lih•yōwṯ lə•ʾōwṯ bēy•niy uw•ḇēy•nēy•hem lā•ḏa•ʿaṯ kiy ʾă•niy yəh•wāh mə•qad•də•šām';
   transliteration = transliteration.replace("-", " ");
   transliteration = transliteration.split(" ");
   transliterationReverse = transliteration.reverse();
 //   transliteration = cleanTransliteration(transliteration);
+
+genesis = await fetch('./genesis.json');
+genesis = await genesis.json();
+console.log(genesis);
 
   
 
